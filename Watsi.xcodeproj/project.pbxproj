@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3816F19C1CF3805D1DAFF161 /* Pods_Watsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB7603E44D295409C823E0D /* Pods_Watsi.framework */; };
+		3F1262581EBB7B0000E3A1F4 /* PatientProfilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1262571EBB7B0000E3A1F4 /* PatientProfilTableViewController.swift */; };
+		3F1EBDB51ECA13DC00F2796C /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EBDB41ECA13DC00F2796C /* DonateViewController.swift */; };
+		3F1EBDB71ECB0AFB00F2796C /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EBDB61ECB0AFB00F2796C /* LoadingOverlay.swift */; };
 		3F6E6E181EB7A20D0088C878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E171EB7A20D0088C878 /* AppDelegate.swift */; };
-		3F6E6E1A1EB7A20D0088C878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E191EB7A20D0088C878 /* ViewController.swift */; };
 		3F6E6E1D1EB7A20D0088C878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E6E1B1EB7A20D0088C878 /* Main.storyboard */; };
 		3F6E6E1F1EB7A20D0088C878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E6E1E1EB7A20D0088C878 /* Assets.xcassets */; };
 		3F6E6E221EB7A20D0088C878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6E6E201EB7A20D0088C878 /* LaunchScreen.storyboard */; };
+		3F6E6E2B1EB7A39B0088C878 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E2A1EB7A39B0088C878 /* Color.swift */; };
+		3F6E6E2E1EB7A62B0088C878 /* PatientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E2D1EB7A62B0088C878 /* PatientCollectionViewCell.swift */; };
+		3F6E6E341EB8F8860088C878 /* PatientsListPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E331EB8F8860088C878 /* PatientsListPageViewController.swift */; };
+		3F6E6E361EB8F98B0088C878 /* PatientsListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E351EB8F98B0088C878 /* PatientsListCollectionViewController.swift */; };
+		3F6E6E391EB9214D0088C878 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E381EB9214D0088C878 /* Patient.swift */; };
+		3F6E6E3C1EB925020088C878 /* PatientsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E3B1EB925020088C878 /* PatientsStore.swift */; };
+		3F6E6E3E1EB9262D0088C878 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E6E3D1EB9262D0088C878 /* Config.swift */; };
+		3F9E3E091EC74235002AD1B4 /* DonorProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E081EC74235002AD1B4 /* DonorProfilViewController.swift */; };
+		3F9E3E0D1EC76303002AD1B4 /* DonorProfilDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E0C1EC76303002AD1B4 /* DonorProfilDetailsView.swift */; };
+		3F9E3E111EC7788C002AD1B4 /* DBUserProfileDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E101EC7788C002AD1B4 /* DBUserProfileDetailView.m */; };
+		3F9E3E141EC8634D002AD1B4 /* DonorProfilPatientPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E131EC8634D002AD1B4 /* DonorProfilPatientPhotoCollectionViewCell.swift */; };
+		3F9E3E1A1EC870CA002AD1B4 /* DonorProfilPatientsPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E191EC870CA002AD1B4 /* DonorProfilPatientsPhotoCollectionViewController.swift */; };
+		3F9E3E1C1EC88DA0002AD1B4 /* DonorProfilPatientsCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E1B1EC88DA0002AD1B4 /* DonorProfilPatientsCountryViewController.swift */; };
+		3F9E3E1E1EC898AC002AD1B4 /* DonorProfilPatientsCountryMapArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9E3E1D1EC898AC002AD1B4 /* DonorProfilPatientsCountryMapArtwork.swift */; };
+		3FCB60E71EC0956800B408D4 /* PatientDonorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB60E61EC0956800B408D4 /* PatientDonorCollectionViewCell.swift */; };
+		3FCB60E91EC1155A00B408D4 /* Donor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB60E81EC1155A00B408D4 /* Donor.swift */; };
+		3FF13DF81EC9B0920075303F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF13DF71EC9B0920075303F /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1262571EBB7B0000E3A1F4 /* PatientProfilTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProfilTableViewController.swift; sourceTree = "<group>"; };
+		3F1EBDB41ECA13DC00F2796C /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		3F1EBDB61ECB0AFB00F2796C /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
 		3F6E6E141EB7A20D0088C878 /* Watsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6E6E171EB7A20D0088C878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6E6E191EB7A20D0088C878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F6E6E1C1EB7A20D0088C878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6E6E1E1EB7A20D0088C878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6E6E211EB7A20D0088C878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6E6E231EB7A20D0088C878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6E6E2A1EB7A39B0088C878 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3F6E6E2D1EB7A62B0088C878 /* PatientCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F6E6E331EB8F8860088C878 /* PatientsListPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListPageViewController.swift; sourceTree = "<group>"; };
+		3F6E6E351EB8F98B0088C878 /* PatientsListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsListCollectionViewController.swift; sourceTree = "<group>"; };
+		3F6E6E381EB9214D0088C878 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		3F6E6E3B1EB925020088C878 /* PatientsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsStore.swift; sourceTree = "<group>"; };
+		3F6E6E3D1EB9262D0088C878 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3F9E3E081EC74235002AD1B4 /* DonorProfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorProfilViewController.swift; sourceTree = "<group>"; };
+		3F9E3E0C1EC76303002AD1B4 /* DonorProfilDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorProfilDetailsView.swift; sourceTree = "<group>"; };
+		3F9E3E0E1EC7787A002AD1B4 /* DBUserProfileDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUserProfileDetailView.h; sourceTree = "<group>"; };
+		3F9E3E0F1EC7788B002AD1B4 /* Watsi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watsi-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F9E3E101EC7788C002AD1B4 /* DBUserProfileDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUserProfileDetailView.m; sourceTree = "<group>"; };
+		3F9E3E131EC8634D002AD1B4 /* DonorProfilPatientPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorProfilPatientPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F9E3E191EC870CA002AD1B4 /* DonorProfilPatientsPhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorProfilPatientsPhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		3F9E3E1B1EC88DA0002AD1B4 /* DonorProfilPatientsCountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorProfilPatientsCountryViewController.swift; sourceTree = "<group>"; };
+		3F9E3E1D1EC898AC002AD1B4 /* DonorProfilPatientsCountryMapArtwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorProfilPatientsCountryMapArtwork.swift; sourceTree = "<group>"; };
+		3FCB60E61EC0956800B408D4 /* PatientDonorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDonorCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FCB60E81EC1155A00B408D4 /* Donor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donor.swift; sourceTree = "<group>"; };
+		3FF13DF71EC9B0920075303F /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		4CC57330C44B98182D2C530C /* Pods-Watsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watsi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watsi/Pods-Watsi.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB7603E44D295409C823E0D /* Pods_Watsi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watsi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C19224DBAAD4FC9C67552F /* Pods-Watsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watsi/Pods-Watsi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3816F19C1CF3805D1DAFF161 /* Pods_Watsi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +83,10 @@
 		3F6E6E0B1EB7A20C0088C878 = {
 			isa = PBXGroup;
 			children = (
-				3F6E6E161EB7A20D0088C878 /* Watsi */,
+				5B527CF21A6416919FA2FF73 /* Frameworks */,
+				E7AD45926A33D30D54632FAB /* Pods */,
 				3F6E6E151EB7A20D0088C878 /* Products */,
+				3F6E6E161EB7A20D0088C878 /* Watsi */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +102,99 @@
 			isa = PBXGroup;
 			children = (
 				3F6E6E171EB7A20D0088C878 /* AppDelegate.swift */,
-				3F6E6E191EB7A20D0088C878 /* ViewController.swift */,
-				3F6E6E1B1EB7A20D0088C878 /* Main.storyboard */,
 				3F6E6E1E1EB7A20D0088C878 /* Assets.xcassets */,
-				3F6E6E201EB7A20D0088C878 /* LaunchScreen.storyboard */,
-				3F6E6E231EB7A20D0088C878 /* Info.plist */,
+				3F6E6E291EB7A37A0088C878 /* Config */,
+				3F6E6E2F1EB7A6940088C878 /* Controllers */,
+				3F6E6E371EB9213A0088C878 /* Models */,
+				3F6E6E3A1EB924D50088C878 /* Stores */,
+				3F6E6E2C1EB7A5E70088C878 /* Views */,
 			);
 			path = Watsi;
+			sourceTree = "<group>";
+		};
+		3F6E6E291EB7A37A0088C878 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E6E231EB7A20D0088C878 /* Info.plist */,
+				3F9E3E0F1EC7788B002AD1B4 /* Watsi-Bridging-Header.h */,
+				3F6E6E2A1EB7A39B0088C878 /* Color.swift */,
+				3F6E6E3D1EB9262D0088C878 /* Config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		3F6E6E2C1EB7A5E70088C878 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F9E3E121EC852DD002AD1B4 /* Vendors */,
+				3F9E3E131EC8634D002AD1B4 /* DonorProfilPatientPhotoCollectionViewCell.swift */,
+				3F9E3E0C1EC76303002AD1B4 /* DonorProfilDetailsView.swift */,
+				3F6E6E201EB7A20D0088C878 /* LaunchScreen.storyboard */,
+				3F6E6E1B1EB7A20D0088C878 /* Main.storyboard */,
+				3F6E6E2D1EB7A62B0088C878 /* PatientCollectionViewCell.swift */,
+				3FCB60E61EC0956800B408D4 /* PatientDonorCollectionViewCell.swift */,
+				3F9E3E1D1EC898AC002AD1B4 /* DonorProfilPatientsCountryMapArtwork.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3F6E6E2F1EB7A6940088C878 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F1EBDB41ECA13DC00F2796C /* DonateViewController.swift */,
+				3F9E3E1B1EC88DA0002AD1B4 /* DonorProfilPatientsCountryViewController.swift */,
+				3F9E3E191EC870CA002AD1B4 /* DonorProfilPatientsPhotoCollectionViewController.swift */,
+				3F9E3E081EC74235002AD1B4 /* DonorProfilViewController.swift */,
+				3F1262571EBB7B0000E3A1F4 /* PatientProfilTableViewController.swift */,
+				3F6E6E351EB8F98B0088C878 /* PatientsListCollectionViewController.swift */,
+				3F6E6E331EB8F8860088C878 /* PatientsListPageViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3F6E6E371EB9213A0088C878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E6E381EB9214D0088C878 /* Patient.swift */,
+				3FCB60E81EC1155A00B408D4 /* Donor.swift */,
+				3FF13DF71EC9B0920075303F /* Country.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3F6E6E3A1EB924D50088C878 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				3F6E6E3B1EB925020088C878 /* PatientsStore.swift */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		3F9E3E121EC852DD002AD1B4 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				3F9E3E0E1EC7787A002AD1B4 /* DBUserProfileDetailView.h */,
+				3F9E3E101EC7788C002AD1B4 /* DBUserProfileDetailView.m */,
+				3F1EBDB61ECB0AFB00F2796C /* LoadingOverlay.swift */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		5B527CF21A6416919FA2FF73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7603E44D295409C823E0D /* Pods_Watsi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7AD45926A33D30D54632FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CC57330C44B98182D2C530C /* Pods-Watsi.debug.xcconfig */,
+				E6C19224DBAAD4FC9C67552F /* Pods-Watsi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F6E6E261EB7A20D0088C878 /* Build configuration list for PBXNativeTarget "Watsi" */;
 			buildPhases = (
+				D08191F08384B4EF3F9A5F3D /* [CP] Check Pods Manifest.lock */,
 				3F6E6E101EB7A20D0088C878 /* Sources */,
 				3F6E6E111EB7A20D0088C878 /* Frameworks */,
 				3F6E6E121EB7A20D0088C878 /* Resources */,
+				98FA7D123A833E2DEEE9BBD2 /* [CP] Embed Pods Frameworks */,
+				8D66140326A5AC3175940126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +233,7 @@
 					3F6E6E131EB7A20D0088C878 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7W98S9CGY9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +269,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D66140326A5AC3175940126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watsi/Pods-Watsi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FA7D123A833E2DEEE9BBD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watsi/Pods-Watsi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08191F08384B4EF3F9A5F3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F6E6E101EB7A20D0088C878 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6E6E1A1EB7A20D0088C878 /* ViewController.swift in Sources */,
+				3F6E6E361EB8F98B0088C878 /* PatientsListCollectionViewController.swift in Sources */,
+				3F1262581EBB7B0000E3A1F4 /* PatientProfilTableViewController.swift in Sources */,
+				3F6E6E3C1EB925020088C878 /* PatientsStore.swift in Sources */,
+				3F9E3E091EC74235002AD1B4 /* DonorProfilViewController.swift in Sources */,
+				3FCB60E71EC0956800B408D4 /* PatientDonorCollectionViewCell.swift in Sources */,
+				3F9E3E1A1EC870CA002AD1B4 /* DonorProfilPatientsPhotoCollectionViewController.swift in Sources */,
+				3F9E3E0D1EC76303002AD1B4 /* DonorProfilDetailsView.swift in Sources */,
+				3FF13DF81EC9B0920075303F /* Country.swift in Sources */,
 				3F6E6E181EB7A20D0088C878 /* AppDelegate.swift in Sources */,
+				3F9E3E111EC7788C002AD1B4 /* DBUserProfileDetailView.m in Sources */,
+				3F9E3E141EC8634D002AD1B4 /* DonorProfilPatientPhotoCollectionViewCell.swift in Sources */,
+				3F1EBDB71ECB0AFB00F2796C /* LoadingOverlay.swift in Sources */,
+				3F6E6E2E1EB7A62B0088C878 /* PatientCollectionViewCell.swift in Sources */,
+				3F6E6E2B1EB7A39B0088C878 /* Color.swift in Sources */,
+				3F6E6E3E1EB9262D0088C878 /* Config.swift in Sources */,
+				3F6E6E341EB8F8860088C878 /* PatientsListPageViewController.swift in Sources */,
+				3FCB60E91EC1155A00B408D4 /* Donor.swift in Sources */,
+				3F6E6E391EB9214D0088C878 /* Patient.swift in Sources */,
+				3F9E3E1C1EC88DA0002AD1B4 /* DonorProfilPatientsCountryViewController.swift in Sources */,
+				3F9E3E1E1EC898AC002AD1B4 /* DonorProfilPatientsCountryMapArtwork.swift in Sources */,
+				3F1EBDB51ECA13DC00F2796C /* DonateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +463,35 @@
 		};
 		3F6E6E271EB7A20D0088C878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC57330C44B98182D2C530C /* Pods-Watsi.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7W98S9CGY9;
 				INFOPLIST_FILE = Watsi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylevy.Watsi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Watsi/Watsi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3F6E6E281EB7A20D0088C878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C19224DBAAD4FC9C67552F /* Pods-Watsi.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7W98S9CGY9;
 				INFOPLIST_FILE = Watsi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeremylevy.Watsi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Watsi/Watsi-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +515,7 @@
 				3F6E6E281EB7A20D0088C878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

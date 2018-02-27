@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.4.0)
+  - DBProfileViewController (2.0.2):
+    - FXBlurView (~> 1.6.4)
+  - FXBlurView (1.6.4)
+  - LTNavigationBar (2.1.9)
+  - PageMenu (2.0.0)
+  - RandomColorSwift (1.0.0)
+  - ReadMoreTextView (2.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - DBProfileViewController (~> 2.0)
+  - LTNavigationBar (~> 2.1)
+  - PageMenu (from `https://github.com/jeremylevy/PageMenu.git`)
+  - RandomColorSwift (~> 1.0)
+  - ReadMoreTextView (~> 2.0)
+  - SDWebImage (~> 3.8)
+
+EXTERNAL SOURCES:
+  PageMenu:
+    :git: https://github.com/jeremylevy/PageMenu.git
+
+CHECKOUT OPTIONS:
+  PageMenu:
+    :commit: ec152f157d3c4e0cf9fea1135cb38a3fa2f3262f
+    :git: https://github.com/jeremylevy/PageMenu.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DBProfileViewController: a2da39408911b0a732ac04512e999468d39f0802
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  LTNavigationBar: c278785bed344862e18146b5f06792932e4feacc
+  PageMenu: 50134deb498b120cfcd086fee1bce35a4b2f9c81
+  RandomColorSwift: 9f85058b721665d52d239ca166a913e083506444
+  ReadMoreTextView: aefb9ffe11922c87fd39a09a988d7cc74c8438ba
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 2ca646d01430457ea37aef16d57c950cb782d763
+
+COCOAPODS: 1.2.1
