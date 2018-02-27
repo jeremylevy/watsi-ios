@@ -8,7 +8,7 @@
 
 import Foundation
 
-private let BASE_API_URL = "https://1d014e17.ngrok.io"
+private let BASE_API_URL = "http://watsiapi-prod.eu-west-1.elasticbeanstalk.com"
 
 struct Config {
     static let DEFAULT_STORYBOARD_NAME = "Main"
