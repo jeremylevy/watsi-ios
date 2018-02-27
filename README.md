@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://watsi.org"><img src="https://usenotion.com/images/watsi-logo-fc-c6080592.png" alt="Watsi" width="836"></a>
+  <a href="https://watsi.org"><img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/90458-bdca67d22fe3c295f9db420ebf498781-medium_jpg.jpg?buster=1400111641" alt="Watsi" width="200"></a>
   <br>
-  Watsi
+  Watsi-ios
   <br>
   <br>
 </h1>
