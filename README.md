@@ -20,9 +20,9 @@
   <img src="6.png" width="144"/>
 </p>
 
-**Watsi-ios** is an unofficial iOS app for the nonprofit healthcare crowdsourcing platform Watsi.
+**Watsi-ios** is an unofficial iOS app for the nonprofit healthcare crowdsourcing platform [Watsi](https://watsi.org/).
 
-It was built during my studies.
+It was built during my studies using the [Watsi API](http://developers.watsi.org/).
 
 ### Install
 
