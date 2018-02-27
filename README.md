@@ -11,7 +11,9 @@
 
 <br>
 
-**Watsi-ios** is an unofficial iOS app for the nonprofit healthcare crowdsourcing platform Watsi. It was built during my studies.
+**Watsi-ios** is an unofficial iOS app for the nonprofit healthcare crowdsourcing platform Watsi.
+
+It was built during my studies.
 
 ### Install
 
